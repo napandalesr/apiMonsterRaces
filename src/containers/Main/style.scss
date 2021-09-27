@@ -1,0 +1,42 @@
+.cards {
+  height: 300px !important;
+  margin: 20px;
+	border: 1px solid #ddd;
+	background: transparent;
+  overflow-y: scroll;
+}
+
+.ant-card-body {
+  padding: 5px !important;
+}
+
+.ant-divider {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.ant-card-head-title {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h2 {
+  color: white !important;
+}
+
+main {
+  background-color: rgb(118, 247, 247);
+  height: 100vh;
+  padding-top: 80px;
+}
+
+.ant-card-head {
+  border-radius: 0 0 10px 0px !important;
+  width: 98%;
+  background: -webkit-linear-gradient(45deg, rgb(224, 187, 64), rgb(240, 191, 33)) !important;
+  background: -o-linear-gradient(45deg, rgb(224, 187, 64), rgb(240, 191, 33)) !important;
+  background: -moz-linear-gradient(45deg, rgb(224, 187, 64), rgb(240, 191, 33)) !important;
+  background: linear-gradient(45deg, rgb(219, 193, 105), rgb(233, 195, 71)) !important;
+  padding: 0 !important;
+  box-shadow: 0px 0px 10px rgba(124,123,123,1);
+}

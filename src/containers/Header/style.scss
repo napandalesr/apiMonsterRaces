@@ -1,0 +1,18 @@
+.site-page-header{
+  box-shadow: 0px 0px 15px rgba(124,123,123,1);
+  background: -webkit-linear-gradient(45deg, rgb(0, 164, 197), rgba(0,212,255,1));
+  background: -o-linear-gradient(45deg, rgb(0, 164, 197), rgba(0,212,255,1));
+  background: -moz-linear-gradient(45deg, rgb(0, 164, 197), rgba(0,212,255,1));
+  background: linear-gradient(45deg, rgb(0, 164, 197), rgba(0,212,255,1));
+}
+
+.ant-page-header {
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  z-index: 2020;
+}
+
+.ant-page-header-heading-title, .ant-page-header-heading-sub-title, .ant-page-header-back-button {
+  color: white !important;
+}

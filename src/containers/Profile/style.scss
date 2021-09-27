@@ -1,0 +1,46 @@
+.profile {
+  padding: 80px 20px;
+  background-color: rgb(118, 247, 247);
+  height: 100%;
+}
+.container {
+	text-align: center;
+	background-position: center center;
+	background-size: 180px;
+  width: 220px;
+  height: 200px;
+	background-repeat: no-repeat;
+	position: relative;
+  background-origin: content-box;
+}
+
+.container:before {
+	content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.ant-input[disabled] {
+  color: black !important;
+}
+
+.container > h2 {
+	font-size: 20px;
+	color: #fff;
+  top: 30%;
+	position: relative
+}
+
+.container > img {
+  width: 80%;
+  opacity: 2;
+}
+
+.ant-card {
+  border: 2px solid rgb(156, 156, 156) !important;
+  padding: 20px !important;
+}
